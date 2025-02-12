@@ -7,7 +7,7 @@ const Button1 = () => {
   return (
     <Link
         href="#"
-        className="bg-zinc-950 flex justify-center items-center gap-2 px-4 py-2.5 rounded-full text-zinc-100 overflow-hidden relative group"
+        className="btn"
       >
         <span className="size-2 rounded-full bg-zinc-100 group-hover:scale-[40] group-hover:bg-sky-800 transition-elt"></span> 
         <p className="z-10 group-hover:-translate-x-4 transition-elt">About us</p>
