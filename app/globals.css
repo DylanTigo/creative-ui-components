@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  
+  body {
+    @apply bg-zinc-100 text-zinc-950
+  }
+}
+
+@layer utilities {
+  .transition-elt {
+    @apply transition-all duration-300 ease-in-out;
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///home/dylan/Projets/2.Fevrier/creative-buttons/app/page.tsx"],"sourcesContent":["\"\"\n\nimport { ArrowRightIcon } from \"lucide-react\";\nimport { motion } from \"motion/react\"\n\nexport default function Home() {\n  return (\n    <div className=\"flex flex-col items-center justify-center h-screen gap-12\">\n      <button type=\"button\" className=\"bg-zinc-100 flex justify-center items-center gap-2 px-6 py-2.5 rounded-full text-zinc-950\"> \n        <span className=\"size-2 rounded-full bg-zinc-950\"></span>\n        About us\n        <motion.div>\n          <ArrowRightIcon className=\"size-3.5 stroke-zinc-950\"/>\n        </motion.div>\n      </button>\n    </div>\n  );\n}\n"],"names":[],"mappings":";;;;AAGA;AADA;AAFA;;;;AAKe,SAAS;IACtB,qBACE,8OAAC;QAAI,WAAU;kBACb,cAAA,8OAAC;YAAO,MAAK;YAAS,WAAU;;8BAC9B,8OAAC;oBAAK,WAAU;;;;;;gBAAyC;8BAEzD,8OAAC,+JAAA,CAAA,SAAM,CAAC,GAAG;8BACT,cAAA,8OAAC,sNAAA,CAAA,iBAAc;wBAAC,WAAU;;;;;;;;;;;;;;;;;;;;;;AAKpC"}},
+    {"offset": {"line": 57, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 68, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":""}},
+    {"offset": {"line": 68, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}
