@@ -388,12 +388,8 @@ body {
   position: absolute;
 }
 
-.relative {
-  position: relative;
-}
-
-.-right-3 {
-  right: -.75rem;
+.-right-4 {
+  right: -1rem;
 }
 
 .top-1\/2 {
@@ -402,6 +398,10 @@ body {
 
 .z-10 {
   z-index: 10;
+}
+
+.inline-block {
+  display: inline-block;
 }
 
 .flex {
@@ -413,13 +413,25 @@ body {
   height: .5rem;
 }
 
-.size-3\.5 {
-  width: .875rem;
-  height: .875rem;
+.size-4 {
+  width: 1rem;
+  height: 1rem;
+}
+
+.h-6 {
+  height: 1.5rem;
+}
+
+.h-fit {
+  height: fit-content;
 }
 
 .h-screen {
   height: 100vh;
+}
+
+.w-fit {
+  width: fit-content;
 }
 
 .-translate-y-1\/2 {
@@ -439,20 +451,29 @@ body {
   justify-content: center;
 }
 
-.gap-12 {
-  gap: 3rem;
+.gap-8 {
+  gap: 2rem;
 }
 
-.gap-2 {
-  gap: .5rem;
+.gap-6 {
+  gap: 1.5rem;
 }
 
-.overflow-hidden {
-  overflow: hidden;
+.gap-4 {
+  gap: 1rem;
 }
 
 .rounded-full {
   border-radius: 9999px;
+}
+
+.border {
+  border-width: 1px;
+}
+
+.border-zinc-950 {
+  --tw-border-opacity: 1;
+  border-color: rgb(9 9 11 / var(--tw-border-opacity, 1));
 }
 
 .bg-zinc-100 {
@@ -469,14 +490,8 @@ body {
   stroke: #f4f4f5;
 }
 
-.px-4 {
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
-.py-2\.5 {
-  padding-top: .625rem;
-  padding-bottom: .625rem;
+.font-medium {
+  font-weight: 500;
 }
 
 .text-zinc-100 {
@@ -489,14 +504,40 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.transition {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-timing-function: cubic-bezier(.4, 0, .2, 1);
+  transition-duration: .15s;
+}
+
 .transition-elt {
   transition-property: all;
   transition-duration: .3s;
   transition-timing-function: cubic-bezier(.4, 0, .2, 1);
 }
 
-.group:hover .group-hover\:right-4 {
-  right: 1rem;
+.btn {
+  position: relative;
+  display: flex;
+  min-width: 8rem;
+  align-items: center;
+  justify-content: center;
+  gap: .5rem;
+  overflow: hidden;
+  border-radius: 9999px;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+}
+
+.btn .btn-2-text {
+  position: relative;
+  overflow: hidden;
+}
+
+.group:hover .group-hover\:right-5 {
+  right: 1.25rem;
 }
 
 .group:hover .group-hover\:-translate-x-4 {
