@@ -34,7 +34,7 @@ const Button3 = ({ children }: { children: string }) => {
             initial: { scale: 0 },
             hovered: { scale: 1.4 },
           }}
-          transition={{ duration: 0.3, ease: "easeOut" }}
+          transition={{ duration: 0.3, ease: "ease  Out" }}
            style={{
             width: cusorWidth,
             left: x,
