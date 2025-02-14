@@ -32,8 +32,9 @@ const Button3 = ({ children }: { children: string }) => {
         <motion.span
           variants={{
             initial: { scale: 0 },
-            hovered: { scale: 1 },
+            hovered: { scale: 1.4 },
           }}
+          transition={{ duration: 0.3, ease: "easeOut" }}
            style={{
             width: cusorWidth,
             left: x,
