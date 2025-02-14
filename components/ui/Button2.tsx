@@ -1,7 +1,7 @@
 "use client";
 
-import Link from "next/link";
 import React from "react";
+import Link from "next/link";
 import { motion } from "motion/react";
 import { ArrowRightIcon } from "lucide-react";
 
@@ -20,7 +20,7 @@ const Button2 = ({ children }: { children: string }) => {
   return (
     <Link href="#">
       <motion.div
-        className="btn group border border-zinc-950 min-w-32 group"
+        className="btn group border border-zinc-950 min-w-32"
         whileHover="hovered"
         initial="initial"
       >
