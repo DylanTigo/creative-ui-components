@@ -21,3 +21,19 @@
   }
 }
 
+.btn .anime-translate {
+  animation: none;
+}
+
+.btn:hover .anime-translate {
+  animation: translate 1s linear infinite;
+}
+
+@keyframes translate {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
